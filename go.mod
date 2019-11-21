@@ -6,8 +6,8 @@ require (
 	github.com/mattn/go-colorable v0.1.2 // indirect
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/ogier/pflag v0.0.1
-	github.com/rs/zerolog v1.14.3
-	github.com/spf13/viper v1.4.0
+	github.com/rs/zerolog v1.17.2
+	github.com/spf13/viper v1.5.0
 )
 
 go 1.13
