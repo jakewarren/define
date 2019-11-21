@@ -1,4 +1,4 @@
-// nolint:scopelint
+// nolint:scopelint,gosec
 package integration
 
 import (

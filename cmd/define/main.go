@@ -89,17 +89,17 @@ func prettyPrint(resp *dictionary.Results) {
 				for i, sense := range e.Senses {
 					headerFmt := color.New(color.FgHiMagenta, color.Bold)
 					exampleFmt := color.New(color.Italic)
-					headerFmt.Println(fmt.Sprintf("%d.", i+1), rejoin(sense.Definitions[0], "\n", ", "))
+					_, _ = headerFmt.Println(fmt.Sprintf("%d.", i+1), rejoin(sense.Definitions[0], "\n", ", "))
 
 					if sense.HasExamples() {
-						exampleFmt.Println("\t", "'"+rejoin(sense.RenderExamples(), "\n", ", ")+"'")
+						_, _ = exampleFmt.Println("\t", "'"+rejoin(sense.RenderExamples(), "\n", ", ")+"'")
 					}
 
 					for j, subsense := range sense.Subsenses {
 						subsenseFmt := color.New(color.FgHiCyan, color.Bold)
-						subsenseFmt.Printf("\n   %s - %s%s\n", fmt.Sprintf("%d.%d", i+1, j+1), subsense.RenderTags(), subsenseFmt.Sprint(subsense.Definitions[0]))
+						_, _ = subsenseFmt.Printf("\n   %s - %s%s\n", fmt.Sprintf("%d.%d", i+1, j+1), subsense.RenderTags(), subsenseFmt.Sprint(subsense.Definitions[0]))
 						if subsense.HasExamples() {
-							exampleFmt.Println("\t", "'"+rejoin(subsense.RenderExamples(), "\n", ", ")+"'")
+							_, _ = exampleFmt.Println("\t", "'"+rejoin(subsense.RenderExamples(), "\n", ", ")+"'")
 						}
 
 					}
