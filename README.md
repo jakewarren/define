@@ -13,7 +13,11 @@ This program is a hard fork of [Rican7/define](https://github.com/Rican7/define)
 ![](screenshot.jpg)
 
 ## Installation
+### Option 1: Binary
 
+Download the latest release from [https://github.com/jakewarren/define/releases/latest](https://github.com/jakewarren/define/releases/latest)
+
+### Option 2: From source
 If you have a working Go environment, you can install via `go get`:
 ```shell
 go get github.com/jakewarren/define/...
