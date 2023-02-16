@@ -1,5 +1,5 @@
 # define
-[![CircleCI](https://circleci.com/gh/jakewarren/define.svg?style=shield)](https://circleci.com/gh/jakewarren/define)
+[![Build Status](https://github.com/jakewarren/define/workflows/lint/badge.svg)](https://github.com/jakewarren/define/actions)
 [![GitHub release](http://img.shields.io/github/release/jakewarren/define.svg?style=flat-square)](https://github.com/jakewarren/define/releases])
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/jakewarren/define)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/jakewarren/define/blob/master/LICENSE)
