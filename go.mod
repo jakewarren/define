@@ -1,7 +1,7 @@
 module github.com/jakewarren/define
 
 require (
-	github.com/Rican7/define v0.1.2
+	github.com/Rican7/define v0.3.0
 	github.com/fatih/color v1.7.0
 	github.com/mattn/go-colorable v0.1.2 // indirect
 	github.com/mitchellh/go-homedir v1.1.0
